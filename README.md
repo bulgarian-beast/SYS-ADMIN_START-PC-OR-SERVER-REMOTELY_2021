@@ -71,5 +71,6 @@ run the following command:
 
     ifconfig | grep "ether " &&
 
-# START_PC_OR_SERVER_REMOTELY
-# START_PC_OR_SERVER_REMOTELY
+## IN YOUR REMOTE COMPUTER
+
+***in file ./wake_on_lan.py change ip and mac with your target address***
