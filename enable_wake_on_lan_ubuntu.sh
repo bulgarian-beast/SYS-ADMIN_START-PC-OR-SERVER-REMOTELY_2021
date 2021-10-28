@@ -1,3 +1,5 @@
+#! /bin/sh
+
 ip a | grep "2: " && echo "If you have trouble make shure the previous line displayed after '2: enp1s0 [...]', if you have something different change 'enp1s0' for what you have in this script" &&
 echo "This is your IP adress to target:\n" &&
 ifconfig | grep "inet " &&
